@@ -1,0 +1,40 @@
+.body{
+    background: #DCE35B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin:0;
+}
+
+.name{
+    font-size: 1.9rem;
+    text-align: center;
+    color:#993300;  /* fallback for old browsers */
+}
+
+.img{
+    max-width: 60%;
+        width: 100%;
+        display: flex;
+        margin:0 auto;
+}
+
+.img1,.img2{
+   /* width: calc(100% / 3); */
+        width: 49%;
+        object-fit: cover;
+}
+
+main {
+        margin: auto;
+        width: 75%;
+        background-color: rgba(255,255,255,0.6);
+        box-shadow: 10px 25px 40px 10px rgba(0, 0, 0, 0.8);
+        max-height: 100%;
+        overflow: auto;
+        margin-bottom: 3rem;
+}
+
+.list{
+    font-size: 1.2rem;
+    
+}
