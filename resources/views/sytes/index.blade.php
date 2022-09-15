@@ -47,8 +47,8 @@
         <a href="https://still-ridge-56871.herokuapp.com/"
           ><img class="header" src="img/header2.png"/></a>
         </div>
-      </div>
-          </div>
+        </div>
+        </div>
         <div class="title">
         <h1>♨︎日帰り温泉</h1>
         <h1>検索サイト︎</h1>
@@ -98,6 +98,7 @@
                 <img src="{{asset('img/関東.png')}}" >
             </div>
             <h1 class="review"><a href='/sytes/rank'>関東温泉レビューランキング３０選</a></h1>
+            <div style="text-align:right;">※レビュー評価引用元：<a href="https://www.tripadvisor.jp/">Tripadvisor</a></div>
             <div class="img2"> 
                 <img src="{{asset('img/ランキング.jpeg')}}" >
             </div>
